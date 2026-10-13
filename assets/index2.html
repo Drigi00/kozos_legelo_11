@@ -48,9 +48,57 @@
         
         <div class="tartalom">
             <article>
-                
+                <h2>Rövid gondolatkísérlet</h2>
+                <p class="alcim-text">Az űrlap a HTML-elemek gyakorlására készült. A válaszokat az oldal nem értékeli és nem menti el.</p>
+            
+                <form>
+                 
+                    <fieldset>
+                        <legend>1. Mi segíthetett volna megelőzni a legelő túlterhelését?</legend>
+                        <label>
+                            <input type="radio" name="megelozes" value="megallapodas">
+                            A gazdák előre megállapodnak az állatok számáról.
+                        </label>
+                        <label>
+                            <input type="radio" name="megelozes" value="kulon_dontes">
+                            Mindenki külön dönt, és később figyelik a legelőt.
+                        </label>
+                        <label>
+                            <input type="radio" name="megelozes" value="mas">
+                            Más megoldást javasolnék.
+                        </label>
+                    </fieldset>
+            
+                   
+                    <fieldset>
+                        <legend>2. Mit kellene mérlegelniük? Többet is jelölhetsz.</legend>
+                        <label>
+                            <input type="checkbox" name="merlegeles" value="fu">
+                            Mennyi fű tud újranőni?
+                        </label>
+                        <label>
+                            <input type="checkbox" name="merlegeles" value="hatas">
+                            Hogyan hat egy döntés a többi gazdára?
+                        </label>
+                        <label>
+                            <input type="checkbox" name="merlegeles" value="tej">
+                            Mennyi tejhez jutnak később?
+                        </label>
+                    </fieldset>
+            
+                   
+                    <fieldset>
+                        <legend>3. Indokold meg a javaslatodat 2-3 mondatban!</legend>
+                        <textarea placeholder="Szerintem azért lenne érdemes..."></textarea>
+                    </fieldset>
+            
+                    <p class="informacio">
+                        A gomb csak újratölti ezt az oldalt. Nincs háttérrendszer vagy automatikus értékelés; a választ az órán beszéljétek meg.
+                    </p>
+            
+                    <button type="submit" class="urlap-gomb">Űrlap kipróbálása</button>
+                </form>
             </article>
-
             <aside>
                 <div class="oldal-sav">
                     <h4>Beszélgetéshez</h4>
