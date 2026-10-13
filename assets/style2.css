@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f4f6ed;
+    background: #dddddd;
     color: #2c3e35;
     display: flex;
     justify-content: center;
@@ -19,6 +19,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.logo{
+font-weight: bold;
 }
 
 
